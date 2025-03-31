@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../projects/helloworld"
+		},
+		{
+			"path": "../../projects/.vscode"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
