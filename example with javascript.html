@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+    <h1 id="kic"> JavaScript Lesson </h1>
+
+    <p id="hnd"> A short paragraph is about 100-200 words and focuses on one main topic that is very specific.
+         A short paragraph has supporting details about the main idea and concludes in a way that further promotes
+          the main idea. On the other hand, a long paragraph can be a specific topic or a broad one. </p>
+    
+    <!-- javaScript Code Structure -->
+    <script>
+        // JavaScript Display Possibility. document.write();
+        document.write("Hello World <br>");
+
+        // JavaScript Variables & First JavaScript Code.
+        var y=10;
+        var z=20;
+        var total=y+z;
+
+        document.write("Total is "+total+"<br>");
+
+        // Second JavaScript Second Code with if condition.
+        var maths=75;
+        var it=65;
+        var average=(maths+it)/2;
+
+        if (average>40)
+        {
+            document.write("PASS---!"+"<br>");
+        }
+        else
+        {
+            document.write("<h2> FAIL...! </h2>");
+        }
+
+        // Third JavaScript Code with for loop.
+        for(var i=0; i<=10; i++)
+        {
+            document.write(i+"<br>");
+        }
+
+        // JavaScript Display Possibility. window.alert();
+        window.alert("Hello World");
+
+        // JavaScript Display Possibility. Console.log();
+        console.log("Welcome JavaScript");
+
+        // JavaScript Display Possibility - Inner HTML. document.getElementById("").innerHTML="";
+        document.getElementById("kic").innerHTML="KIC-Diploma";
+        document.getElementById("hnd").innerHTML="KIC-HND";
+
+        // JavaScript Pop Up Box - Alert Box window.alert();
+        window.alert("Hello World");
+
+        // JavaScript Pop Up Box - Confirm Box window.confirm();
+        window.confirm("Hello World");
+
+        // JavaScript Pop Up Box - Prompt Box prompt();
+        var city= prompt("What is your city");
+        document.write("You are from "+city);
+    </script>
+
+    <!-- JavaScript Event. onClick -->
+    <button onclick="document.write('Hello')"> Button </button>
+    <button onclick="window.alert('You Click Me')"> Touch </button>
+
+    <!-- Change the content using innerHTML & onClick with id selector -->
+    <button onClick="document.getElementById('hnd').innerHTML='You Successfully Change it'"> Click Me </button>
+<body>  
+</body>
+</html>
